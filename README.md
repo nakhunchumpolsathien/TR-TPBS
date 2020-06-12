@@ -34,7 +34,7 @@ We strongly suggest to train all Bert-based models on multiple GUPs for shorten 
 |BerSumExt| 20.65| 6.19 |	20.22 |
 | **Abstractive**| | | |
 |BertSumAbs|	20.87|	6.19|20.61|
-|BertSumExtAbs	|		| | |
+|BertSumExtAbs|	22.05|7.08|21.80|
 |TransformerAbs|	18.61	|5.49	|18.45|
 > `bert-base-multilingual-uncased`
 

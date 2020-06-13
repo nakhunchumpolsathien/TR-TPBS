@@ -8,6 +8,8 @@ Currently, the Largest Dataset for Thai Text Summarization
 ## Dataset Properties 
 > to be updated
 
+
+<img src="abs_level.png" width="500" /><img>
 ## Experiment Settings and Results
 We evaluate the performance of the TR-TPBS dataset using existing extractive and abstractive baselines. 
 Please refer to [PreSum](https://arxiv.org/pdf/1908.08345.pdf), also [BertSum](https://arxiv.org/pdf/1903.10318.pdf) for more technical information and their implementation codes. 
@@ -31,7 +33,7 @@ We strongly suggest to train all Bert-based models on multiple GUPs for shorten 
 |**Extractive**| | | |
 |Oracle | 26.87 | 7.56 | 26.34 | 
 |Lead-2 | 12.91	|4.19|	12.64|
-|BerSumExt| 20.65| 6.19 |	20.22 |
+|BertSumExt| 20.65| 6.19 |	20.22 |
 | **Abstractive**| | | |
 |BertSumAbs|	20.87|	6.19|20.61|
 |BertSumExtAbs|	22.05|7.08|21.80|

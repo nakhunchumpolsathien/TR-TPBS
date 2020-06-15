@@ -51,7 +51,7 @@ We strongly suggest to train all Bert-based models on multiple GUPs for shorten 
 |**Abstactive**| | | |
 |BertSumAbs|  |	|	 |
 |BertSumExtAbs|	37.68 |	14.89|	28.17 |
-|TransformerAbs|	
+|TransformerAbs|	 18.44|2.46|15.40 |
 > `bert-base-uncased`
 ##### Chinese TR-TPBS ROUGE F1 Results
 | Models | R1 | R2 | RL |

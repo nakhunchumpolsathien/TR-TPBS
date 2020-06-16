@@ -2,6 +2,7 @@
 Currently, the Largest Dataset for Thai Text Summarization
 
 ## Download Dataset
+**To be updated. For now, none of these file is released.** <br/>
 Click on file name to download. All files are in .csv format.
 | File | Remark |
 |--- |  --- |
@@ -19,8 +20,6 @@ This dataset is the largest news dataset for Thai text summarization since the p
 
 Apart from text summarization objectives, TR-TPBS can be used for several other NLP tasks e.g. news classification and keyphrase extraction. 
 
-## Dataset Construction
-> to be updated
 ## Dataset Properties 
 > to be updated
 

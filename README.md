@@ -1,7 +1,7 @@
 # TR-TPBS
 Currently, the Largest Dataset for Thai Text Summarization
 
-## Download Dataset
+## Download TR-TPBS Dataset
 **To be updated. For now, none of these file is released.** <br/>
 Click on file name to download. All files are in .csv format.
 | File | Remark |
@@ -12,6 +12,13 @@ Click on file name to download. All files are in .csv format.
 |[Test Sets]()|This folder contains 2 files. </n> These files are the test sets used in [cross lingual summarization experiment](#crosslingual-summarization) |
 
 Use column `url` provided in ZH and EN TRTPBS files as the index to get its original Thai text in Original TR-TPBS.
+### Additional Dataset
+These two files are the previous versions of TR-TPBS, before being combined. Be noted that the articles in these files are preprocessed with slightly different filtering-out conditions of that TR-TPBS. The number in the end of datasets’ name indicates the approximate number of articles contained in each dataset. The newest articles contained in these two files are published online up to December 2019.
+| File | Remark |
+|--- |  --- |
+|[Thairath-228k]()| contains `title`,	`body`,	`summary`,	`type`,	`tags`,	`url` and `date` columns.|
+|[ThaiPBS-111k]()| contains similar columns as Thairath-228k’s. | 
+
 
 ## Introduction
 TR-TPBS is a medium-size dataset, a multi-purpose NLP benchmark, especially for Thai language. This dataset is crawled from Thairath (TR) and ThaiPBS (TPBS) news websites. The main objectives of this corpus are for Thai text summarization and cross-lingual Thai text summarization. The article texts and summary texts are translated to English and Chinese using Google & Amazon translation services. Therefore, there are three language versions of this dataset: TH-TRTPBS, ENG-TRTPBS and ZH-TRTPBS. The TH version is the original crawled Thai text. ENG and ZH stand for English and simplified Chinese respectively.

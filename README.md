@@ -49,46 +49,6 @@ We strongly suggest to train all Bert-based models on multiple GUPs for shorten 
 
 ### Results
 #### Monolingual Summarization
-##### Thai TR-TPBS ROUGE F1 Results
-| Models | R1 | R2 | RL |
-|--- | --- | --- | --- |
-|**Extractive**| | | |
-|Oracle | 26.87 | 7.56 | 26.34 | 
-|Lead-2 | 12.91	|4.19|	12.64|
-|BertSumExt| 20.65| 6.19 |	20.22 |
-| **Abstractive**| | | |
-|BertSumAbs|	20.87|	6.19|20.61|
-|BertSumExtAbs|	22.05|7.08|21.80|
-|TransformerAbs|	18.61	|5.49	|18.45|
-> `bert-base-multilingual-uncased`
-
-##### English TR-TPBS ROUGE F1 Results
-
-| Models | R1 | R2 | RL |
-|--- | --- | --- | --- |
-|**Extractive**| | | |
-| Oracle | 	30.30| 	10.74	| 25.66| 
-| Lead-2	| 17.89| 	5.81| 	14.96| 
-|BertSumExt| 31.68|	10.54	|24.53|
-|**Abstactive**| | | |
-|BertSumAbs|  |	|	 |
-|BertSumExtAbs|	37.68 |	14.89|	28.17 |
-|TransformerAbs|	 18.44|2.46|15.40 |
-> `bert-base-uncased`
-##### Chinese TR-TPBS ROUGE F1 Results
-| Models | R1 | R2 | RL |
-|--- | --- | --- | --- |
-|**Extractive**| | | |
-|Oracle |  21.03	| 5.99	| 20.59| 
-|Lead-2 | 8.94	| 2.55	| 8.72| 
-|BerSumExt| 17.28	| 4.96	| 16.96| 
-|**Abstactive**| | | |
-|BertSumAbs| 16.56	| 4.88 |	16.27  |
-|BertSumExtAbs|17.44 |	5.21	 | 17.19 |
-|TransformerAbs|	|	|	 |
-> `bert-base-chinese`
-#### Crosslingual Summarization
-> To be updated
 
 ##### TH -> Eng
 ##### TH -> Chinese

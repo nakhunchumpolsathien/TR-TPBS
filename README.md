@@ -64,7 +64,7 @@ ROUGE F1 of R1 R2 and RL are used to reported these experimental results.
 
 #### Cross-lingual Summarisation  
 ET and LT stand for early translation and late translation respectively. 
-##### TR-TPBS: Thai -> Eng
+##### TR-TPBS: Thai -> English
 
 | Models | R1 | R2 | RL |
 |--- | --- | --- | --- |
@@ -94,4 +94,4 @@ ET and LT stand for early translation and late translation respectively.
 - [Tanachat Ariyachutinan](https://github.com/caramelWaffle), School of Computer Science, Beijing Institute of Technology, China
 
 ## License 
-These dataset are licensed under [MIT License](https://github.com/nakhunchumpolsathien/TR-TPBS/blob/master/LICENSE). 
+These datasets are licensed under [MIT License](https://github.com/nakhunchumpolsathien/TR-TPBS/blob/master/LICENSE). 

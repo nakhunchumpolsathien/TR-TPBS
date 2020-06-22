@@ -16,8 +16,8 @@ Use column `url` provided in ZH and EN TRTPBS files as the index to get its orig
 These two files are the previous versions of TR-TPBS, before being combined. Be noted that the articles in these files are preprocessed with slightly different filtering-out conditions of that TR-TPBS. The number in the end of datasets’ name indicates the approximate number of articles contained in each dataset. The newest articles contained in these two files are published online up to December 2019.
 | File | Remark |
 |--- |  --- |
-|[Thairath-228k]()| contains `title`,	`body`,	`summary`,	`type`,	`tags`,	`url` and `date` columns.|
-|[ThaiPBS-111k]()| contains similar columns as Thairath-228k’s. | 
+|[Thairath-222k]()| contains `title`,	`body`,	`summary`,	`type`,	`tags`,	`url` and `date` columns.|
+|[ThaiPBS-111k]()| contains similar columns as Thairath-222k’s. | 
 
 
 ## Introduction

@@ -28,8 +28,7 @@ This dataset is the largest news dataset for Thai text summarization since the p
 Apart from text summarization objectives, TR-TPBS can be used for several other NLP tasks e.g. news classification and keyphrase extraction. 
 
 ## Dataset Properties 
-> to be updated
-
+See [exploration.ipynb](https://github.com/nakhunchumpolsathien/TR-TPBS/blob/master/exploration.ipynb)
 
 <img src="abs_level.png" width="500" /><img>
 ## Experiment Settings and Results

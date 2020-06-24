@@ -1,23 +1,23 @@
 # TR-TPBS
-Currently, the Largest Dataset for Thai Text Summarization
+Currently, the largest dataset for Thai text summarization.
 
 ## Download TR-TPBS Dataset
 **TR-TPBS datasets are not made available yet. However, both of additional datasets are available to download below.** <br/>
 Click on file name to download. All files are in .csv format.
 | File | Remark |
 |--- |  --- |
-|[Original TR-TPBS]()| It contains full elements of TH-TRTPBS. |
-|[EN-TRTPBS]()|This file contains `en_body`, `en_summary`, `url`.|
-|[ZH-TRTPBS]()|This file contains `zh_body`, `zh_summary`, `url`.|
-|[Test Sets]()|This folder contains 2 files. </n> These files are the test sets used in [cross lingual summarization experiment](#crosslingual-summarization) |
+|Original TR-TPBS| It contains full elements of TH-TRTPBS. |
+|EN-TRTPBS|This file contains `en_body`, `en_summary`, `url`.|
+|ZH-TRTPBS|This file contains `zh_body`, `zh_summary`, `url`.|
+|Test Sets|This folder contains 2 files. </n> These files are the test set and validate set used in [cross lingual summarization experiment](#crosslingual-summarization) |
 
 Use column `url` provided in ZH and EN TRTPBS files as the index to get its original Thai text in Original TR-TPBS.
 ### Additional Dataset
 These two files are the previous versions of TR-TPBS, before being combined. Be noted that the articles in these files are preprocessed with slightly different filtering-out conditions of that TR-TPBS. The number in the end of datasets’ name indicates the approximate number of articles contained in each dataset. The newest articles contained in these two files are published online up to December 2019.
-| File | Remark |
-|--- |  --- |
-|[Thairath-222k]()| contains `title`,	`body`,	`summary`,	`type`,	`tags`,	`url` and `date` columns.|
-|[ThaiPBS-111k]()| contains similar columns as Thairath-222k’s. | 
+| File | Remark |Size |
+|--- |  --- | --- |
+|[Thairath-222k](https://drive.google.com/file/d/1L5XatRRS1aekfuhMVu24SQtOCCUrhj_W/view?usp=sharing)| contains `title`,	`body`,	`summary`,	`labels`,	`tags`,	`url` and `date` columns.| 1.72 GB |
+|[ThaiPBS-111k](https://drive.google.com/file/d/1movJ5kjzhehD3OMtM9fPTS0VLaqd7oxK/view?usp=sharing)| contains similar columns as Thairath-222k’s except `date`. |0.51 GB| 
 
 
 ## Introduction

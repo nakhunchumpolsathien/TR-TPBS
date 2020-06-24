@@ -45,7 +45,7 @@ More importantly, we used different versions of Bert for each language version o
 We strongly suggest to train all Bert-based models on multiple GUPs for shorten the training time and the better results. 
 
 ### Results
-ROUGE F1 of R1 R2 and RL are used to reported these experimental results. 
+ROUGE F1 of R1 R2 and RL are used to report these experimental results (test set). 
 #### Monolingual Summarization
 ##### TR-TPBS: (TH -> TH)
 
@@ -91,7 +91,7 @@ ET and LT stand for early translation and late translation respectively.
 
 ## Collected and Preposessed by 
 - [Nakhun Chumpolsathien](https://github.com/nakhunchumpolsathien), School of Computer Science, Beijing Institute of Technology, China
-- [Tanachat Ariyachutinan](https://github.com/caramelWaffle), School of Computer Science, Beijing Institute of Technology, China
+- [Tanachat Arayachutinan](https://github.com/caramelWaffle), School of Computer Science, Beijing Institute of Technology, China
 
 ## License 
 These datasets are licensed under [MIT License](https://github.com/nakhunchumpolsathien/TR-TPBS/blob/master/LICENSE). 
@@ -112,7 +112,7 @@ These datasets are licensed under [MIT License](https://github.com/nakhunchumpol
  |ET + BertSumAbs| mr. sarawut songsivilai , director-general of the department of highways , revealed after being the chairman of the board of directors meeting that the srt board has approved the extension of the fare reduction period for the mrt purple line bang yai - tao poon section . |
  |ET + BertSumExt|extended fare reduction period for mrt purple line bang yai - tao poon project at the rate of 14 - 20 baht from the end of 30 june .\<q> this is out for three months from july 1 .\<q>this measures to reduce the cost of living to the public without reserving the right to receive compensation whatsoever , mr. sarawuth said , because the situation of kovy - 19 affected the normal amount of train passengers .|
    || **Crosslingual Summarization: Thai to Chinese** |
-  |ET + zhBertSumAbs|c. 这 一 措施 持续 到 6 月 底 。\<q>3 月 11 日 c. 泰国 公共 交通 管理 局 局长 帕邦斯里坎通 先生 在 会见 斯里坎 通后 透露 . 董 事 会 同意 从 3 月 底起 ， 将 紫线 票价 的 生活 费用 减少 到 14 - 20 泰 铢 的 措施 延长 到 3 个 月 。|
+  |ET + zhBertSumExt|c. 这 一 措施 持续 到 6 月 底 。\<q>3 月 11 日 c. 泰国 公共 交通 管理 局 局长 帕邦斯里坎通 先生 在 会见 斯里坎 通后 透露 . 董 事 会 同意 从 3 月 底起 ， 将 紫线 票价 的 生活 费用 减少 到 14 - 20 泰 铢 的 措施 延长 到 3 个 月 。|
  
   
   

@@ -56,10 +56,10 @@ ROUGE F1 of R1 R2 and RL are used to reported these experimental results.
 |Lead-2 |30.77|13.66| 30.75 |
 |BertSumExt| 44.58| 20.26 |	44.51|
 | **Abstractive**| | | |
-|BertSumAbs|	|||
+|BertSumAbs|	51.09| 26.92| 51.04 | 
 |ertSumExtAbs|53.19|28.19|53.13|
 
-> `bert-base-multilingual-uncased`
+> `bert-base-multilingual-uncased` (mBert)
 
 #### Cross-lingual Summarisation  
 ET and LT stand for early translation and late translation respectively. 
@@ -75,7 +75,7 @@ ET and LT stand for early translation and late translation respectively.
 |**Abstactive**| | | |
 |ET + BertSumAbs|  51.85|	31.06|	 47.09|
 |ET + BertSumExtAbs|	 ||	 |
-
+> `bert-base-uncased`
 ##### TR-TPBS: Thai -> Chinese
 | Models | R1 | R2 | RL |
 |--- | --- | --- | --- |
@@ -87,6 +87,7 @@ ET and LT stand for early translation and late translation respectively.
 |**Abstactive**| | | |
 |ET + BertSumAbs| |||
 |ET + BertSumExtAbs| || |
+> `bert-base-chinese`
 
 ## Collected and Preposessed by 
 - [Nakhun Chumpolsathien](https://github.com/nakhunchumpolsathien), School of Computer Science, Beijing Institute of Technology, China
@@ -99,18 +100,19 @@ These datasets are licensed under [MIT License](https://github.com/nakhunchumpol
 
 **Article:** [ต่อลดราคาสีม่วงอีก 3 เดือน มติที่ประชุมบอร์ด รฟม.-BEM ไม่ปรับค่าโดยสารสีน้ำเงิน](https://www.thairath.co.th/news/local/bangkok/1867059)\
 **Reference Summary (Gold Summary)**\
-<q>ที่ประชุม บอร์ด มีมติ เห็นชอบ ให้ รฟม. ขยาย ระยะเวลา การ ปรับ ลด ค่าโดยสารโครงการ รถไฟฟ้า สาย สีม่วง บาง ใหญ่ - เตา ปูน อัตรา 14 - 20 บาท จาก เดิม สิ้นสุด วันที่ 30 มิ.ย. นี้ ออก ไป อีก 3 เดือน
+<q>ที่ประชุม บอร์ด มีมติ เห็นชอบ ให้ รฟม. ขยาย ระยะเวลา การ ปรับ ลด ค่าโดยสาร \<q> โครงการ รถไฟฟ้า สาย สีม่วง \<q> บาง ใหญ่ - เตา ปูน อัตรา 14 - 20 บาท จาก เดิม สิ้นสุด วันที่ 30 มิ.ย. นี้ ออก ไป อีก 3 เดือน
 
 | Models | Results| 
 |--- | --- |
 | |**Monolingual Summarization**|
-|mBertExt| บาง ใหญ่ - เตา ปูน อัตรา 14 - 20 บาท จาก เดิม สิ้นสุด วันที่ 30 มิ.ย. นี้ ออก ไป อีก 3 เดือน ธ.ค. นี้ ตาม มาตรการ ลด ค่าครองชีพ ให้ กับ ประชาชน โดย ไม่ สงวนสิทธิ์ ขอรับ การ ชดเชย แต่อย่างใด นาย ส รา วุธ กล่าวว่า เนื่องจาก สถานการณ์ โควิด - 19 ส่ง ผลกระทบ ต่อ ปริมาณ ผู้โดยสาร รถไฟฟ้า ไม่ ปกติ|
-|mBertExtAbs| บอร์ด รฟม. มีมติ เห็นชอบ ขยายเวลา ปรับ ลด ค่าโดยสาร บาง ใหญ่ - เตา ปูน ออก ไป อีก 3 เดือน ตาม นโยบาย คมนาคม ลด ภาระ ค่าครองชีพ เพื่อ บรรเทา ความเดือดร้อน ให้ ประชาชนซึ่ง จะ ครบกำหนด ปรับ ค่าโดยสาร ตาม สัญญา สัและ ครบัตรา สัตรา สัตรา สัณ บอร์ด บาง ใหา บอร์ด หรือไฟ้าง บาง ใหลับ บาง ใหญา บาง ใหมติ |
+|mBertExt| บาง ใหญ่ - เตา ปูน อัตรา 14 - 20 บาท จาก เดิม สิ้นสุด วันที่ 30 มิ.ย. นี้ ออก ไป อีก 3 เดือน \<q> ธ.ค. นี้ ตาม มาตรการ ลด ค่าครองชีพ ให้ กับ ประชาชน โดย ไม่ สงวนสิทธิ์ ขอรับ การ ชดเชย แต่อย่างใด นาย ส รา วุธ กล่าวว่า เนื่องจาก สถานการณ์ โควิด - 19 ส่ง ผลกระทบ ต่อ ปริมาณ ผู้โดยสาร รถไฟฟ้า ไม่ ปกติ|
+|mBertAbs | บอร์ด รฟม. เห็นชอบ ขยายเวลา ปรับ ลด ค่าโดยสาร \<q> บาง ใหญ่ - เตา ปูน อัตรา 14 - 20 บาท จาก เดิม สิ้นสุด วันที่ 30 มิ.ย. นี้ ออก ไป อีก 3 เดือน ตาม นโยบาย กระทรวงคมนาคม ที่ ต้องการ ลด ภาระ ค่าครองชีพ เพื่อ บรรเทา ความเดือดร้อน ให้ กับ ประชาช\<q>เดิศ\<q>ซึกโศร้อน\<q>ขณี\<q>สิษฐาน
+|mBertExtAbs| บอร์ด รฟม. มีมติ เห็นชอบ ขยายเวลา ปรับ ลด ค่าโดยสาร \<q> บาง ใหญ่ - เตา ปูน ออก ไป อีก 3 เดือน ตาม นโยบาย คมนาคม ลด ภาระ ค่าครองชีพ เพื่อ บรรเทา ความเดือดร้อน ให้ ประชาชนซึ่ง \<q> จะ ครบกำหนด ปรับ ค่าโดยสาร ตาม สัญญา \<q>สัและ\<q> ครบัตรา\<q> สัตรา\<q> สัตรา
  || **Crosslingual Summarization: Thai to English** |
  |ET + BertSumAbs| mr. sarawut songsivilai , director-general of the department of highways , revealed after being the chairman of the board of directors meeting that the srt board has approved the extension of the fare reduction period for the mrt purple line bang yai - tao poon section . |
- |ET + BertSumExt|extended fare reduction period for mrt purple line bang yai - tao poon project at the rate of 14 - 20 baht from the end of 30 june .<sep>this is out for three months from july 1 .<sep>this measures to reduce the cost of living to the public without reserving the right to receive compensation whatsoever , mr. sarawuth said , because the situation of kovy - 19 affected the normal amount of train passengers .|
+ |ET + BertSumExt|extended fare reduction period for mrt purple line bang yai - tao poon project at the rate of 14 - 20 baht from the end of 30 june .\<q> this is out for three months from july 1 .\<q>this measures to reduce the cost of living to the public without reserving the right to receive compensation whatsoever , mr. sarawuth said , because the situation of kovy - 19 affected the normal amount of train passengers .|
    || **Crosslingual Summarization: Thai to Chinese** |
-  |ET + zhBertSumAbs|c. 这 一 措施 持续 到 6 月 底 。<q>3 月 11 日 c. 泰国 公共 交通 管理 局 局长 帕邦斯里坎通 先生 在 会见 斯里坎 通后 透露 . 董 事 会 同意 从 3 月 底起 ， 将 紫线 票价 的 生活 费用 减少 到 14 - 20 泰 铢 的 措施 延长 到 3 个 月 。|
+  |ET + zhBertSumAbs|c. 这 一 措施 持续 到 6 月 底 。\<q>3 月 11 日 c. 泰国 公共 交通 管理 局 局长 帕邦斯里坎通 先生 在 会见 斯里坎 通后 透露 . 董 事 会 同意 从 3 月 底起 ， 将 紫线 票价 的 生活 费用 减少 到 14 - 20 泰 铢 的 措施 延长 到 3 个 月 。|
  
   
   

@@ -23,9 +23,9 @@ These two files are the previous versions of TR-TPBS, before being combined. Be 
 ## Introduction
 TR-TPBS is a medium-size dataset, a multi-purpose NLP benchmark, especially for Thai language. This dataset is crawled from Thairath (TR) and ThaiPBS (TPBS) news websites. The main objectives of this corpus are for Thai text summarization and cross-lingual Thai text summarization. The article texts and summary texts are translated to English and Chinese using Google & Amazon translation services. Therefore, there are three language versions of this dataset: TH-TRTPBS, ENG-TRTPBS and ZH-TRTPBS. The TH version is the original crawled Thai text. ENG and ZH stand for English and simplified Chinese respectively.
 
-This dataset is the largest news dataset for Thai text summarization since the previous studies on this topic, as far as we know, used small size of dataset up to 500 documents. It was understandable, since those studies were based on statistic methods not deep learning ones. It didn’t require a large text for training. Therefore, our experiment is the very first study that experimented Thai text summarization with deep learning methods on the largest Thai text summarization dataset. We explored this dataet on both extractive and abstractive methods. 
+This dataset is the largest news dataset for Thai text summarization since the previous studies on this topic, as far as we know, used small size of dataset up to 500 documents. It was understandable because those studies were based on statistic methods not deep learning ones. It didn’t require a large text for training. Therefore, our experiment is the very first study that experimented Thai text summarization with deep learning methods on the largest Thai text summarization dataset. We explored this dataset on both extractive and abstractive methods. 
 
-Apart from text summarization objectives, TR-TPBS can be used for several other NLP tasks e.g. news classification and keyphrase extraction. 
+Apart from text summarization objectives, TR-TPBS can be used for several other NLP tasks e.g. headline generation, news classification and keyphrase extraction. 
 
 ## Dataset Properties 
 See [exploration.ipynb](https://github.com/nakhunchumpolsathien/TR-TPBS/blob/master/exploration.ipynb)
@@ -74,8 +74,8 @@ ET and LT stand for early translation and late translation respectively.
 |BertSumExt + LT| 42.33| 27.33	| 34.85|
 |**Abstactive**| | | |
 |ET + BertSumAbs|  51.85|	31.06|	 47.09|
-|ET + BertSumExtAbs|	 ||	 |
-> `bert-base-uncased`
+|ET + BertSumExtAbs|53.19|28.19|53.13|
+> `bert-base-cased`
 ##### TR-TPBS: Thai -> Chinese
 | Models | R1 | R2 | RL |
 |--- | --- | --- | --- |
@@ -86,7 +86,7 @@ ET and LT stand for early translation and late translation respectively.
 |BertSumExt + LT| 28.11| 11.85| 27.46|
 |**Abstactive**| | | |
 |ET + BertSumAbs| |||
-|ET + BertSumExtAbs| || |
+|ET + BertSumExtAbs|35.63|16.02|35.36|
 > `bert-base-chinese`
 
 ## Collected and Preposessed by 
@@ -94,7 +94,7 @@ ET and LT stand for early translation and late translation respectively.
 - [Tanachat Arayachutinan](https://github.com/caramelWaffle), School of Computer Science, Beijing Institute of Technology, China
 
 ## License 
-These datasets are licensed under [MIT License](https://github.com/nakhunchumpolsathien/TR-TPBS/blob/master/LICENSE). 
+Thairath-222k and ThaiPBS-111k datasets are licensed under [MIT License](https://github.com/nakhunchumpolsathien/TR-TPBS/blob/master/LICENSE). 
 
 ## Examples of Generated Summary
 

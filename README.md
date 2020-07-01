@@ -85,7 +85,7 @@ ET and LT stand for early translation and late translation respectively.
 |ET + BertSumExt| 34.58|14.98|31.57|
 |BertSumExt + LT| 28.11| 11.85| 27.46|
 |**Abstactive**| | | |
-|ET + BertSumAbs| |||
+|ET + BertSumAbs|35.76| 16.31| 35.47 |
 |ET + BertSumExtAbs|35.63|16.02|35.36|
 > `bert-base-chinese`
 
@@ -113,6 +113,7 @@ Thairath-222k and ThaiPBS-111k datasets are licensed under [MIT License](https:/
  |ET + BertSumExt|extended fare reduction period for mrt purple line bang yai - tao poon project at the rate of 14 - 20 baht from the end of 30 june .\<q> this is out for three months from july 1 .\<q>this measures to reduce the cost of living to the public without reserving the right to receive compensation whatsoever , mr. sarawuth said , because the situation of kovy - 19 affected the normal amount of train passengers .|
    || **Crosslingual Summarization: Thai to Chinese** |
   |ET + zhBertSumExt|c. 这 一 措施 持续 到 6 月 底 。\<q>3 月 11 日 c. 泰国 公共 交通 管理 局 局长 帕邦斯里坎通 先生 在 会见 斯里坎 通后 透露 . 董 事 会 同意 从 3 月 底起 ， 将 紫线 票价 的 生活 费用 减少 到 14 - 20 泰 铢 的 措施 延长 到 3 个 月 。|
+  | ET - zhBertSumAbs | srt 董 事 会 同意 将 紫线 票价 的 生活 费用 减少 到 14 -20 泰 铢 ， 从 12 月 25 日 至 62 日 延长 至 3 个 月 。\<q> | 
  
   
   

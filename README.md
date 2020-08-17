@@ -49,7 +49,7 @@ ROUGE F1 of R1 R2 and RL are used to report these experimental results.
 |BertSumExt |44.58|20.26|44.51|
 | **Abstractive**| | | |
 |BertSumAbs|51.09|26.92|51.04| 
-|ertSumExtAbs|53.19|28.19|53.13|
+|BertSumExtAbs|53.19|28.19|53.13|
 
 ## Collected and Preposessed by 
 - [Nakhun Chumpolsathien](https://github.com/nakhunchumpolsathien), School of Computer Science, Beijing Institute of Technology, China

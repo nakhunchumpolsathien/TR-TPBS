@@ -2,7 +2,9 @@
 Currently, the largest dataset for Thai text summarization.
 
 ## Download TR-TPBS Dataset
-**TR-TPBS datasets are not made available yet. However, both of additional datasets are available to download below.** <br/>
+| File | Remark |Size |
+|--- |  --- | --- |
+|[TR-TPBS](https://docs.google.com/forms/d/e/1FAIpQLSepG5NFdsxbidsoLiXIToW9PCBMqT0WywISMBjtugJiA5nTYw/viewform?usp=sf_link)| contains `title`,	`body`,	`summary`,	`labels`,	`tags` and `url` columns.| 2.05 GB |
 
 ### Additional Datasets
 These two files are the previous versions of TR-TPBS, before being combined. Be noted that the articles in these files are preprocessed with slightly different filtering-out conditions of that TR-TPBS. The number in the end of datasets’ name indicates the approximate number of articles contained in each dataset. The newest articles contained in these two files are published online up to December 2019.

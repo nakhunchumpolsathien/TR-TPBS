@@ -1,5 +1,5 @@
 # TR-TPBS
-Currently, the largest dataset for Thai text summarization.
+A dataset for Thai text summarization.
 
 ## Download TR-TPBS Dataset
 | File | Remark |Size |
@@ -69,3 +69,12 @@ ROUGE F1 of R1 R2 and RL are used to report these experimental results.
 
 ## License 
 TR-TPBS, Thairath-222k and ThaiPBS-111k datasets are licensed under [MIT License](https://github.com/nakhunchumpolsathien/TR-TPBS/blob/master/LICENSE). 
+
+## Cite this work
+```
+@mastersthesis{chumpolsathien_2020, 
+    title={Using Knowledge Distillation from Keyword Extraction to Improve the Informativeness of Neural Cross-lingual Summarization},
+    author={Chumpolsathien, Nakhun}, 
+    year={2020}, 
+    school={Beijing Institute of Technology}
+```

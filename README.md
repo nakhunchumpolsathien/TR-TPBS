@@ -1,6 +1,9 @@
 # TR-TPBS
 A dataset for Thai text summarization.
 
+### **Update 23 Nov. 2020**
+The official and larger version of this dataset, called ThaiSum, can be found in [this repo](https://github.com/nakhunchumpolsathien/ThaiSum). It also comes with several trained models available to download. 
+
 ## Download TR-TPBS Dataset
 | File | Remark |Size |
 |--- |  --- | --- |

@@ -7,14 +7,14 @@ The official and larger version of this dataset, called ThaiSum, can be found in
 ## Download TR-TPBS Dataset
 | File | Remark |Size |
 |--- |  --- | --- |
-|[TR-TPBS](https://docs.google.com/forms/d/e/1FAIpQLSepG5NFdsxbidsoLiXIToW9PCBMqT0WywISMBjtugJiA5nTYw/viewform?usp=sf_link)| contains `title`,	`body`,	`summary`,	`labels`,	`tags` and `url` columns.| 2.05 GB |
+|[TR-TPBS](https://nakhun-chumpolsathien.oss-us-west-1.aliyuncs.com/thaisum/additional_datasets/tr-tpbs.csv)| contains `title`,	`body`,	`summary`,	`labels`,	`tags` and `url` columns.| 2.05 GB |
 
 ### Additional Datasets
 These two files are the previous versions of TR-TPBS, before being combined. Be noted that the articles in these files are preprocessed with slightly different filtering-out conditions of that TR-TPBS. The number in the end of datasets’ name indicates the approximate number of articles contained in each dataset. The newest articles contained in these two files are published online up to December 2019.
 | File | Remark |Size |
 |--- |  --- | --- |
-|[Thairath-222k](https://docs.google.com/forms/d/e/1FAIpQLSdy23SSMuUn46sFPqELyn-BoiYvLbg_JG5-5KkwbJiWTV2PaA/viewform?usp=sf_link)| contains `title`,	`body`,	`summary`,	`labels`,	`tags`,	`url` and `date` columns.| 1.72 GB |
-|[ThaiPBS-111k](https://docs.google.com/forms/d/e/1FAIpQLSfai0uEXTyFqkqwVzm31fvyqduCZJZy6iVRbXflTS-KLBRPCw/viewform?usp=sf_link)| contains similar columns as Thairath-222k’s except `date`. |0.51 GB| 
+|[Thairath-222k](https://nakhun-chumpolsathien.oss-us-west-1.aliyuncs.com/thaisum/additional_datasets/thairath-222_final.csv)| contains `title`,	`body`,	`summary`,	`labels`,	`tags`,	`url` and `date` columns.| 1.72 GB |
+|[ThaiPBS-111k](https://nakhun-chumpolsathien.oss-us-west-1.aliyuncs.com/thaisum/additional_datasets/thaipbs-111_final.csv)| contains similar columns as Thairath-222k’s except `date`. |0.51 GB| 
 
 ## Need Pretrained Models for Research Purpose ? 
 If you would like to obtain pretrained [summarization models](https://github.com/nakhunchumpolsathien/TR-TPBS/#tr-tpbs-test-set) for research purposes, please contact `nakhun.chum(at sign)gmail.com`. The following pretrained models are available upon request:
